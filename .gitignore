@@ -1,0 +1,5 @@
+# Research scratch (для team-discussion и подобных промежуточных задач)
+.research-temp/
+
+# Логи приложений
+*.log
