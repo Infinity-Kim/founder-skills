@@ -47,6 +47,20 @@
 
 Основан на: Doerr (Measure What Matters), Wodtke (Radical Focus), Grove (High Output Management), Cagan (Inspired/Empowered), Perri (Escaping the Build Trap), Torres (Continuous Discovery Habits), Singer (Shape Up), Rumelt (Good Strategy Bad Strategy), Porter (Competitive Strategy), Kahneman (Thinking Fast and Slow), Duke (Thinking in Bets/Quit).
 
+### discovery
+**Полный product discovery** - клиент, рынок и все конкуренты, ценность, экономика, риски, эксперименты, MVP и запуск, с симуляциями на своих данных.
+
+Что умеет:
+- Два режима: новый продукт и существующий (матрица функций «мы против рынка», цены на одинаковых профилях клиента, разрывы и преимущества)
+- Находит всех конкурентов: прямых, косвенных и альтернативы вроде Excel и бухгалтера
+- Разбирает каждого параллельными агентами: тарифы, функции, юрлицо и выручка, трафик, отзывы
+- Снимает сайты, тарифы и справку через Playwright со скриншотами, YouTube - описания и главы
+- Читает Telegram-каналы и чаты клиентов через Telethon (только чтение): боли с частотами, упоминания конкурентов, цитаты
+- Симуляции Монте-Карло: запуск на своей аудитории, цена, торнадо по рычагам
+- Выход - HTML-отчёт по 7 разделам чек-листа (проблема, рынок, ценность, экономика, риски, проверка, MVP и запуск) плюс решения и источники
+
+Основан на: Cagan (Inspired), Torres (Continuous Discovery Habits), Fitzpatrick (The Mom Test), Blank, Christensen/Ulwick (JTBD), Dunford (Obviously Awesome), Maurya (Lean Canvas), Van Westendorp, McClure (AARRR).
+
 ## Как использовать
 
 ### В Claude.ai (веб-чат)
@@ -81,6 +95,12 @@ founder-skills/
 │   │                         #   biases-checklist, книги
 │   └── assets/               # 8 шаблонов: planning-stack, V2MOM, OKR, roadmap,
 │                             #   rituals-calendar, idea-inbox, JPD setup, books
+├── discovery/
+│   ├── SKILL.md              # Основной файл скилла (9 этапов)
+│   ├── references/           # 7 файлов: чек-лист, режим «существующий продукт»,
+│   │                         #   брифы агентов, симуляции, структура отчёта,
+│   │                         #   самопроверка, инструменты
+│   └── scripts/              # Playwright (скриншоты, YouTube), Telethon (чаты, каналы)
 └── ...                       # Будущие скиллы
 ```
 
